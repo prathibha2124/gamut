@@ -1,0 +1,97 @@
+Assisted with monitoring AWS services and resources using CloudWatch.
+Create and implement CloudWatch alarms and SNS notifications to monitor AWS services.
+Define Security groups depending on the parameters of access given.
+IAM administration(created users,groups,roles,policies).
+Create IAM user accounts and role-based policies for access to AWS services.
+Archived Outdated Data to Glacier through Life Cycle Policy configuration.
+Use Management Console to provision AWS resources.
+
+
+
+======================================================================================================================================================
+
+
+FAQ's from Clients for AWS cloud services.
+
+--Which cloud services do you provide? 
+--Where are your data centres located? 
+--How flexible are your services? 
+--How secure is your cloud? 
+--What's your downtime history? 
+--What customer support services do you offer?
+
+
+1.Which cloud services do you provide?
+
+ The specific cloud services provided depend on the cloud service provider you are referring to. Major cloud providers like Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and others offer a wide range of cloud services. These services typically include computing, storage, databases, machine learning, networking, analytics, and more. You should refer to the official website of the specific provider for a comprehensive list of their services.
+
+2.Where are your data centres located?
+
+Cloud service providers typically have data centers located in multiple regions and availability zones around the world. The exact locations can vary by provider and are often chosen strategically to provide redundancy, low latency, and compliance with data sovereignty regulations. Each provider typically publishes a list of data center regions on their website.
+
+3.How flexible are your services?
+
+Cloud services are designed to be highly flexible. You can typically scale resources up or down as needed, and many services offer pay-as-you-go pricing, allowing you to pay only for the resources you use. Additionally, cloud providers offer a wide range of service options and configurations to meet various workload requirements.
+
+4.How secure is your cloud?
+
+Cloud providers invest heavily in security and compliance to protect customer data. They offer a range of security services and features, including encryption, identity and access management, firewalls, and monitoring tools. However, the security of your cloud environment also depends on how you configure and manage your resources. It's essential to follow security best practices and apply appropriate security controls.
+
+5.What's your downtime history?
+
+Each cloud provider maintains a record of their service uptime and downtime, often referred to as a Service Level Agreement (SLA). SLAs specify the level of availability guaranteed by the provider and may include compensation in the event of downtime. Downtime history can vary by provider and region, so it's advisable to check the SLA for the specific service and region you are interested in.
+
+6.What customer support services do you offer?
+
+Cloud providers typically offer various levels of customer support, including basic, developer, business, and enterprise support plans. These plans provide access to technical support, documentation, forums, and additional services based on the level of support you choose. Response times and availability of support personnel can vary based on the support plan.
+
+
+============================================================================================================================================================
+
+1. How do I secure my AWS resources and data?
+
+Securing your AWS resources involves a combination of using Identity and Access Management (IAM) for user permissions, encryption for data at rest and in transit, and adhering to security best practices provided by AWS. AWS also offers services like AWS Identity and Access Management (IAM), AWS Key Management Service (KMS), and AWS Security Hub to help you manage security effectively.
+
+2. What is AWS Lambda, and how can I use it to run code without provisioning servers?
+
+AWS Lambda is a serverless compute service that allows you to run code in response to events without the need to manage servers. You can use it to execute code in various programming languages, trigger functions based on events from other AWS services, and pay only for the compute time used.
+
+3. How can I monitor the performance and health of my AWS resources and applications?
+
+AWS provides services like Amazon CloudWatch for monitoring and AWS CloudTrail for logging and auditing. You can set up alarms and custom metrics in CloudWatch, while CloudTrail records API activity. Additionally, AWS offers services like AWS X-Ray for application tracing and AWS Trusted Advisor for cost optimization.
+
+4. What is the difference between Amazon S3 and Amazon EBS for storage?
+
+Amazon S3 (Simple Storage Service) is object storage designed for scalable, durable, and highly available storage of files, objects, and data. Amazon EBS (Elastic Block Store) provides block-level storage for EC2 instances, suitable for use as boot volumes or data storage.
+
+5. How can I back up and recover my AWS resources and data?
+
+AWS offers services like Amazon S3 for object storage, Amazon RDS for managed relational databases, and AWS Backup for centralized management of backups. You can create snapshots and backups of your resources to ensure data durability and disaster recovery.
+
+6. What are AWS Availability Zones, and how do they contribute to high availability?
+
+AWS Availability Zones are isolated data centers within an AWS Region. Deploying resources across multiple Availability Zones provides high availability and fault tolerance. If one Availability Zone experiences issues, traffic can automatically be routed to another, ensuring continuity.
+
+7. How can I scale my AWS resources to handle increased traffic and demand?
+
+You can use Amazon EC2 Auto Scaling to automatically adjust the number of EC2 instances based on traffic patterns. Additionally, services like AWS Elastic Load Balancing help distribute traffic across multiple instances, ensuring scalability and redundancy.
+
+8. What is AWS CloudFormation, and how can it help with infrastructure as code (IAC)?
+
+AWS CloudFormation is a service for defining and deploying AWS infrastructure as code. It allows you to create templates to provision and manage AWS resources consistently. This helps automate resource provisioning and enables version control for infrastructure.
+
+9. How can I optimize costs when using AWS services?
+
+AWS provides tools like AWS Cost Explorer and AWS Trusted Advisor to help you analyze and optimize costs. Strategies include choosing the right instance types, setting up auto-scaling, and leveraging reserved instances for cost savings.
+
+10. How do I get support from AWS when facing technical issues or challenges?
+
+AWS offers various levels of support plans, including Basic, Developer, Business, and Enterprise Support. You can also access AWS documentation, forums, and communities for self-help and guidance. 
+
+====================================================================
+aws interview questions link 
+https://medium.com/@bharathkumar.sb/aws-devops-interview-questions-and-answers-734c2774346
+ 
+
+
+
